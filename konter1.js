@@ -11,7 +11,7 @@ var counter = 10;
 			return;
 		}
 		function download(){
-			document.getElementById("link1").innerHTML = "<a class='bt-success' onclick='NewTab(), Goto() ' role='button'>Link</a>";
+			document.getElementById("link1").innerHTML = "<a class='btn btn-primary btn-sm' onclick='NewTab(), Goto() ' role='button'>Go To</a>";
  {
    document.getElementById("timer3").style.display="none";
    }
